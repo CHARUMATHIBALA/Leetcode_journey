@@ -2,9 +2,7 @@ import java.util.Arrays;
 
 class Solution {
     public int maximumGap(int[] nums) {
-        if (nums.length < 2) {
-            return 0;
-        }
+        
 
         Arrays.sort(nums);
         int max = 0;
