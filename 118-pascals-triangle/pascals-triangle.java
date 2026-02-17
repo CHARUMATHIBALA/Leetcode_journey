@@ -11,8 +11,6 @@ class Solution {
 
                             }
                             p.add(row);
-
-
         }
         return p;
     }
